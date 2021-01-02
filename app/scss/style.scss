@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	background: lightblue;
+	font-size: 20px;
+	color: tomato;
+	padding: 50px;
+}
+
+.box {
+	font-size: 14px;
+	font-weight: 700;
+	color: green;
+	background-color: red;
+	text-align: center;
+}
+
+.test {
+	display: inline-block;
+	display: flex;
+	transform: translate(0,0);
+}
