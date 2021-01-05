@@ -1,28 +1,71 @@
-html {
-	box-sizing: border-box;
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
 }
 
-*, *::before, *::after {
-	box-sizing: inherit;
+.header__text {  
+  margin-left: auto;
+  margin-right: 50px;
+  span {
+    color: $red;
+  }
+  
 }
 
-body {
-	background: lightblue;
-	font-size: 20px;
-	color: tomato;
-	padding: 50px;
+.header__btn {
+  color: #fff;
+  width: 72px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 4px;
 }
 
-.box {
-	font-size: 14px;
-	font-weight: 700;
-	color: green;
-	background-color: red;
-	text-align: center;
+.header__btn-login {
+  background-color: $green;
+  
 }
 
-.test {
-	display: inline-block;
-	display: flex;
-	transform: translate(0,0);
+.header__btn-Register {
+  background-color: $red;
+  margin-left: 7px;
 }
+
+
+.header__menu {
+  
+  background-color: $bg;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.menu__list {
+  li {
+    display: inline-block;
+    & + li {
+      margin-left: 30px;
+    }
+  }
+  a {
+    color: #fff;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
