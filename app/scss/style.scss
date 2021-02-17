@@ -258,32 +258,35 @@
 
 // start produkt-slider
 .products-slider{
-  padding: 110px 0px 120px;
+  padding: 110px 0 120px;
   .slick-dots{
     text-align: center;
     margin-top: 50px;
     li{
       display: inline-block;
-      margin-left: 3px;
-      margin-right: 3px;
+      &+li{
+        margin-left: 7px;        
+      }
       &.slick-active{
         button{
           background-color: $green;
         }
       }
-      button{
-        border-radius: 50%;
-        background-color: rgb(232, 232, 232);
-        border:none;
-        font-size: 0;
-        width: 16px;
-        height: 16px; 
-        outline: none;
-        cursor: pointer;          
-      }
-    }
+      button{      
+      font-size: 0;
+      width: 16px;
+      height: 16px;
+      border-radius:50%;
+      padding: 0;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      
+    } 
+    }    
   }
 }
+
 
 
 
