@@ -169,8 +169,7 @@
     background-repeat: no-repeat;
     display: block;
     background-size: cover;
-    background-position: center;    
-    
+    background-position: center;       
   }
   &-content{
     display: flex;
@@ -363,6 +362,43 @@
     width: 86px;
   }
 }
+.author{  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box{
+    max-width: 650px;
+    width: 100%;
+    min-height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $green;
+  }
+  &__title{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    margin-right: 45px;
+    max-width: 265px;
+    width: 100%;
+    span{
+      @include f700;
+    }
+  }
+  &__link{
+    color: $bg;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 14px 40px;
+    background-color: #fff;
+  }
+}
+
 
 
 
