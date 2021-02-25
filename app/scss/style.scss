@@ -398,16 +398,36 @@
     background-color: #fff;
   }
 }
+.tutorial{
+  padding: 75px 0 120px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;    
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;    
+  }
+}
+
+.tutorial__item{
+  &-images{
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  &-title{
+    color: $bg;
+    background-color: #f8f8f8;
+    padding: 30px 10px;
+    font-size: 24px;
+    @include f700;
+    text-align: center;
+  }
+}
 
 
-
-
-
-
-
-
-
-// end advantages
 
 
 
