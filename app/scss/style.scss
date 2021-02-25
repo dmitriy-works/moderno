@@ -426,6 +426,166 @@
     text-align: center;
   }
 }
+.footer{
+  background-color: $bg;  
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 80px;
+}
+.footer__copy{
+  border-top: 1px solid #424d53;
+}
+
+.footer__copy-text{
+  color: #919699;
+  font-size: 15px;
+  text-align: center;
+  padding: 25px 0;
+}
+.footer__col{
+  max-width: 270px;
+  width: 100%;
+  &-menu{
+    max-width: 220px;
+  }
+  &-title{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    @include f700;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    &::after{
+      content:'';
+      width: 50px;
+      height: 3px;
+      left: 2px;
+      bottom: 0;
+      background-color: $green;
+      position: absolute;
+    }
+  }
+  &-text{
+    color: #b7c3c8;
+    margin-bottom: 30px;
+  }
+}
+.footer__info{
+  color: #fff;
+  margin-top: 18px;
+  @include f500;
+  padding-left: 30px;
+  position: relative;
+  &::before{
+    content: '\f041';
+    font-family: 'icomoon';
+    color: $green;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+  }  
+}
+.footer__info-phone{
+  &::before{
+    content: '\f095';    
+  }  
+}
+.footer__col-list{
+  a{
+    color: #b7c3c8;;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    &::before{
+      content: '\f105';
+      position: absolute;
+      left: 0px;
+      font-size: 18px;
+      font-family: 'icomoon';
+      color: $green;
+    }
+  }
+}
+
+.footer__social-link{
+  margin-bottom: 33px;
+  li{
+    display: inline-block;
+    &+li{
+      margin-left: 7px;
+    }
+  }
+  a{
+    width: 28px;
+    height: 28px;
+    background-image: url('../images/content/css_sprites.png');
+    
+  }
+}
+
+.link-facebook{
+
+}
+.link-twitter{
+  background-position: -28px -0;
+}
+.link-youtube{
+  background-position: -0 -28px;
+}
+.link-pinteres{
+  background-position: -28px -28px;
+}
+.link-linkedin{
+  background-position: -56px -0;
+}
+
+.footer__form{
+  position: relative;
+  &-title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  input{
+    background-color: #2f3c43;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 50px;
+    color: #fff;
+    &::placeholder{
+      color: #697378;
+      font-size: 14px;
+    }    
+  }
+  button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: $green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    width: 43px;
+    &::before{
+      content: '\f124';
+      position: absolute;
+      top: 11px;
+      left: 13px;
+      font-family: 'icomoon';
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+
 
 
 
