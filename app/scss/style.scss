@@ -3,6 +3,11 @@
 @import 'fonts';
 
 
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
 // start header
 .header__top-inner {
   display: flex;
@@ -913,25 +918,3 @@ button.icon-unsorted{
    }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// and products-page
-
-
-
-
-
-
-
