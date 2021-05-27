@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?1l46j2');
-  src:  url('../fonts/icomoon.eot?1l46j2#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?1l46j2') format('truetype'),
-    url('../fonts/icomoon.woff?1l46j2') format('woff'),
-    url('../fonts/icomoon.svg?1l46j2#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?m6r8z9');
+  src:  url('../fonts/icomoon.eot?m6r8z9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?m6r8z9') format('truetype'),
+    url('../fonts/icomoon.woff?m6r8z9') format('woff'),
+    url('../fonts/icomoon.svg?m6r8z9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -60,6 +60,9 @@
 }
 .icon-pencil-square-o:before {
   content: "\f044";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
 }
 .icon-heart-o:before {
   content: "\f08a";
